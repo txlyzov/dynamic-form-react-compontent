@@ -1,0 +1,26 @@
+@import "./../../../utils/Styles.scss";
+
+.form-element {
+  @include flex-center-styles();
+
+  flex-direction: column;
+  width: 100%;
+
+  .form-element__input-group {
+    width: 100%;
+    display: flex;
+    margin: 10px auto;
+
+    &.separated {
+      justify-content: space-between;
+    }
+
+    &.centralized {
+      justify-content: center;
+    }
+  }
+
+  .form-element__submit-button {
+    margin-top: 10px;
+  }
+}

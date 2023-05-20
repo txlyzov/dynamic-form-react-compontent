@@ -1,0 +1,8 @@
+@import "./../../../utils/Styles.scss";
+
+.main.wrapper {
+  @include flex-center-styles();
+
+  flex-direction: column;
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+@import "./../../../utils/Styles.scss";
+
+.preview.wrapper {
+  @include flex-center-styles();
+
+  width: 100%;
+
+  .preview__elements-block {
+    @include flex-center-styles();
+    flex-direction: column;
+    min-width: 300px;
+  }
+}
